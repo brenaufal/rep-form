@@ -15,10 +15,10 @@
             value ('".$Nama."','".$Class."','".$Email."','".$Phone."','".$Date."','".$Send."')") or 
             die(mysqli_error($koneksi));
             if($insert){
-                echo "<script>alert('Sukses menambahkan data');location.href='index.php';</script>";
+                echo "<script>alert('Sukses menambahkan data');location.href='index_2.php';</script>";
             }
             else {
-                echo "<script>alert('Gagal menambahkan data');location.href='index.php';</script>";
+                echo "<script>alert('Gagal menambahkan data');location.href='index_2.php';</script>";
             }
         }
     }
