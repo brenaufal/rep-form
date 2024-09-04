@@ -1,0 +1,19 @@
+body {
+    color: #000;
+    overflow-x: hidden;
+    height: 100%;
+    background-image: url("image/img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; /* Ensure the image covers the entire body */
+    background-position: center; /* Optional: Center the image */
+}
+
+/* Card styling with box shadow */
+.card {
+    padding: 30px 40px;
+    border: none !important;
+    border-width: 30px;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2); /* Add box shadow */
+    border-radius: 8px; /* Optional: Add rounded corners */
+    background-color: #fff; /* Ensure the card has a background color */
+}
